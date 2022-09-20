@@ -1,11 +1,11 @@
 import './App.css';
 import NavBar from './components/navbar/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <header className="App-header">
-      </header>
+      <ItemListContainer greeting={'Bienvenido a Bit-Store.'} />
        
     </div>
   );
