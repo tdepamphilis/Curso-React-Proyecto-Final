@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "visitor";
+  src: local("visitor"),
+   url("./fonts/visitor/visitor1.ttf") format("truetype");
+  font-weight: normal;
+  }
+
+  
+@font-face {
+  font-family: "pixelsix";
+  src: local("pixelsix"),
+   url("./fonts/pixelsix/pixelsix00.ttf") format("truetype");
+  font-weight: normal;
+  }

@@ -1,0 +1,22 @@
+.bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    overflow: hidden;
+    /* max-height: 80px; */
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    overflow: visible;
+}
+
+.img{
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.title{
+    font-size: 45px;
+    font-family: visitor;
+}

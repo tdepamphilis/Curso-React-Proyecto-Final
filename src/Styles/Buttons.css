@@ -1,0 +1,14 @@
+.NavBarButton{
+
+    font-size: 25px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: pixelsix;
+    
+
+}
+
+.NavBarButton:hover{
+    color: #0039a6
+}
