@@ -7,13 +7,13 @@ function DropDown({text, items}) {
 
     const onEnter = () => {setDropdown(true)}
     const onLeave = () => {setDropdown(false)}
-    const buttonFontSize = '20px'
+    const buttonFontSize = '17px'
 
     return (   
         <div className="component" onMouseLeave={onLeave}> 
             <button  aria-expanded={dropdown ? "true" : "false"}  onClick={() => setDropdown((prev) => !prev)} onMouseEnter={onEnter}    className="NavBarButton" >{text} </button>
-            <div  class="font-normal bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"  >
-                <ul className={`dropDown ${dropdown ? "show" : ""}`} >
+                <ul className={`collapse   ${dropdown ? "collapse--Open" : "collapse--Closed"}`} >
+                    <div className="collapse__separator"></div>
                     <li>
                         <Button text={'Colgantes'} fontsize={buttonFontSize}  />
                     </li>
@@ -25,7 +25,7 @@ function DropDown({text, items}) {
                     </li>
                 </ul>
     
-            </div>
+            
         </div>
     );
   }
