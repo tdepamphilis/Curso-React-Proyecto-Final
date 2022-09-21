@@ -1,5 +1,7 @@
 .cartIcon{
     font-size: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .cartIcon:hover{
