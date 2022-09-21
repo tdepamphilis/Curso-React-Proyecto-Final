@@ -1,0 +1,8 @@
+.cartIcon{
+    font-size: 23px;
+}
+
+.cartIcon:hover{
+    color: #0039a6;
+    cursor: pointer
+}

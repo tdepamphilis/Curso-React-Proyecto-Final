@@ -1,5 +1,5 @@
 import { FaShoppingCart } from "react-icons/fa";
-import '../../Styles/NavBar.css'
+import '../../Styles/CartWidget.css'
 
 function CartWidject({text, items}) {
 
