@@ -1,0 +1,42 @@
+.search__icon{
+    font-size: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform .3s;
+}
+
+.search__icon:hover{
+    color: #0039a6;
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+.search__icon--open{
+    font-size: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: scale(1.4);
+}
+
+.search__icon--open:hover{
+    color: #0039a6;
+    cursor: pointer;
+}
+
+.search__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.search__input{
+    width: 10vw;
+    transition: max-width .4s;
+}
+
+.search__input--closed{
+    max-width: 0px;
+}
+
+.search__input--open{
+    max-width: 100px;
+}
