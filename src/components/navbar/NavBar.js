@@ -2,20 +2,21 @@ import Button from "./Button";
 import DropDown from "./DropDown"
 import CartWidject from "./CartWidget";
 import SearchWidget from "./SearchWidget";
+import { BrowserRouter, Routes, Route, useParams, Link } from 'react-router-dom';
 import '../../Styles/NavBar.css'
-function NavBar() {
+function NavBar({categorias}) {
     return (
         <div className="bar">
-            <button class="img">
-                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-10" alt="Flowbite Logo"> */}
+            <Link to={"/"} className="img" >
+            <button>
                <h1 className="title"> Bit-Store</h1>
             </button>
-           
-                <DropDown text={'Categorias'} />
+           </Link>
+                <DropDown text={'Categorias'} items={categorias} />
         
                 <CartWidject />
         
-                <SearchWidget />
+                {/* <SearchWidget /> */}
                 
                 <Button text={'Perfil'} />
             
